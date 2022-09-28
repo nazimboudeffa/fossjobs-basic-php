@@ -1,0 +1,118 @@
+html,body {
+  background: #F2F6FA;
+}
+footer {
+  background-color: #F2F6FA !important;
+}
+.topNav {
+  border-top: 5px solid #3498DB;
+}
+.topNav .container {
+  border-bottom: 1px solid #E6EAEE;
+}
+.container .columns {
+  margin: 3rem 0;
+}
+.navbar-menu .navbar-item {
+  padding: 0 2rem;
+}
+aside.menu {
+  padding-top: 3rem;
+}
+aside.menu .menu-list {
+  line-height: 1.5;
+}
+aside.menu .menu-label {
+  padding-left: 10px;
+  font-weight: 700;
+}
+.button.is-primary.is-alt {
+  background: #00c6ff;
+  background: -webkit-linear-gradient(to bottom, #0072ff, #00c6ff);
+  background: linear-gradient(to bottom, #0072ff, #00c6ff);
+  font-weight: 700;
+  font-size: 14px;
+  height: 3rem;
+  line-height: 2.8;
+}
+.media-left img {
+  border-radius: 50%;
+}
+.media-content p {
+  font-size: 14px;
+  line-height: 2.3;
+  font-weight: 700;
+  color: #8F99A3;
+}
+article.post {
+  margin: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #E6EAEE;
+}
+article.post:last-child {
+  padding-bottom: 0;
+  border-bottom: none;
+}
+.menu-list li{
+  padding: 5px;
+}
+
+.bd-color {
+  border-radius: 50%;
+  box-shadow: 0 2px 3px 0 rgba(0,0,0,.1),inset 0 0 0 1px rgba(0,0,0,.1);
+  margin-left: 0.5em;
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+ }
+a.neutral-link {
+  color: #000000;
+}
+.fulltime {
+  background-color: #e2df24;
+}
+.parttime {
+  background-color: #faad48;
+}
+.freelance {
+  background-color: #c591ff;
+}
+.internship {
+  background-color: #62cffc;
+}
+.job-description {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.footer {
+  padding:0;
+}
+.input::placeholder,.textarea::placeholder {
+  color: #999999;
+  opacity: 1;
+}
+.tag {
+  margin-left: 3px;
+}
+.content h1,.content h2,.content h3 {
+  font-size: 1.25em;
+}
+
+/* Mobile styles. The width matches Bulma's breakpoint:
+   https://bulma.io/documentation/overview/responsiveness/#breakpoints */
+@media screen and (max-width:768px) {
+  img[src="/logo.svg"] {
+    max-width: 50%;
+  }
+  img[src="/logo.svg"] + div > p:first-child {
+    hyphens: auto;
+  }
+}
+
+/* Widen search bar to fill available space */
+.navbar-end {
+  flex-grow: 1;
+}
+.navbar-end form {
+  width: 100%;
+}
