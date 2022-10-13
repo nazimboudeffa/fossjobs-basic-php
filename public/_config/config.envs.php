@@ -10,8 +10,7 @@ $__instances['local'] = array(
 	//'prefix' => 'jobberbase.local',
 	'prefix' => 'neofreelance',
 	// mysql credentials
-	//'db_host' => 'localhost',
-	'db_host' => 'neofreelance',
+	'db_host' => 'localhost'
 	'db_port' => 3306,
 	'db_user' => 'root',
 	//'db_password' => 'root',
