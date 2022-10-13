@@ -95,7 +95,7 @@ foreach ($__instances as $__instance)
 		ini_set('error_reporting', $__instance['ini_error_reporting']);
 		ini_set('display_errors', $__instance['ini_display_errors']);
 
-		define('LANG_CODE', $__instance['lang_code']);
+		//define('LANG_CODE', $__instance['lang_code']);
 		
 		break;
 	}
