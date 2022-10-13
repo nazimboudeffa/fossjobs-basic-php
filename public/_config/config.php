@@ -52,7 +52,7 @@
 	require_once APP_PATH . '_includes/class.SearchKeywords.php';
 	require_once APP_PATH . '_includes/class.JobberSettings.php';
 	require_once APP_PATH . '_includes/class.FormValidator.php';
-	require_once APP_PATH . '_includes/smarty/libs/Smarty.class.php';
+	require_once APP_PATH . '_includes/smarty-4.2.1/libs/Smarty.class.php';
 
 
 	// Setup database connection
