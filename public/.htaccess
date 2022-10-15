@@ -1,22 +1,20 @@
-# AddType x-mapp-php5 .php
-# AddHandler x-mapp-php5 .php
+AddType application/x-httpd-php5 .php
 
 RewriteEngine on
 Options +FollowSymlinks
 
-RewriteCond %{REQUEST_FILENAME} !-f
+RewriteBase /
+
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . index.php [L]
+RewriteRule ^([^/]+)/$ index.php?page=$1 [L]
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^([^/]+)/([^/]+)/$ index.php?page=$1&id=$2 [L]
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^([^/]+)/([^/]+)/([^/]+)/$ index.php?page=$1&id=$2&extra=$3 [L]
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^([^/]+)/([^/]+)/([^/]+)/([^/]+)/$ index.php?page=$1&id=$2&extra=$3&referer=$4 [L]
 
 ErrorDocument 404 /page-unavailable/
-
-<files ~ "\.tpl$">
-order deny,allow
-allow from none
-deny from all
-</files>
-
-#<FilesMatch "\.(png|jp?g|gif|ico|mp4|wmv|mov|mpeg|map|woff?|eot|svg|ttf|json|pdf|csv)">
-#    ExpiresActive on
-#    ExpiresDefault "access plus 1 year"
-#</FilesMatch>

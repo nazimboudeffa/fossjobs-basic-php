@@ -8,23 +8,23 @@
 $__instances['local'] = array(
 	// The prefix should be a unique part of the url (not including protocol name or auth info; see below).
 	//'prefix' => 'jobberbase.local',
-	'prefix' => 'neofreelance',
+	'prefix' => 'localhost',
 	// mysql credentials
-	'db_host' => 'localhost'
+	'db_host' => 'localhost',
 	'db_port' => 3306,
-	'db_user' => 'root',
+	'db_user' => 'dev',
 	//'db_password' => 'root',
-	'db_password' => '',
-	'db_name' => 'jobberbase',
+	'db_password' => 'dev123',
+	'db_name' => 'neofreelance',
 	'db_prefix' => '',
 	// your site's full url
 	//'app_url' => 'http://jobberbase.local/',
-	'app_url' => 'http://neofreelance/',
+	'app_url' => 'http://localhost/',
 	// language to use
 	'lang_code' => 'en',
 	// error reporting
-	'ini_error_reporting' => E_ALL,
-	'ini_display_errors' => 'On',
+	'ini_error_reporting' => E_ERROR | E_PARSE
+	'ini_display_errors' => 'Off',
 	// environment setting 1 (use 'local' for localhost/testing OR 'online' for live, production environment)
 	'location' => 'local',
 	// environment setting 2 (use 'dev' together with 'local' in the previous setting OR 'prod' with 'online')
@@ -47,7 +47,7 @@ $__instances['live'] = array(
 	'app_url' => 'http://neofreelance.com/',
 	// language to use
 	'lang_code' => 'en',
-	'ini_error_reporting' => E_ALL,
+	'ini_error_reporting' => E_ERROR | E_PARSE, // hide all errors on prod
 	'ini_display_errors' => 'Off',
 	'location' => 'online',
 	'environment' => 'prod',
