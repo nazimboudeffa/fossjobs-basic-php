@@ -1,7 +1,7 @@
 services:
   web:
     container_name: neofreelance
-    build: .
+    image: mattrayner/lamp:latest-1804-php7
     ports: 
       - '80:80'
     volumes:
