@@ -1,0 +1,10 @@
+services:
+  web:
+    container_name: neofreelance
+    image: mattrayner/lamp:latest-1804-php7
+    ports: 
+      - '80:80'
+    volumes:
+      - ./public:/app
+      - ./mysql:/var/lib/mysql
+      - ./db:/db

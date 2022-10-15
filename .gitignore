@@ -1,2 +1,5 @@
-/public/_template/bootstrap/_cache
-/public/_template/bulma/_cache
+# Templates cache files
+public/_templates/*/_cache
+
+# Db volume
+mysql
