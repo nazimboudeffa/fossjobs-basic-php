@@ -17,6 +17,13 @@ Instructions on how to install `docker` for
 
 ## Start for local development
 
+### Clone and move to working directory
+
+```
+git clone https://github.com/nazimboudeffa/neofreelance-basic-php.git
+cd neofreelance-basic-php
+```
+
 ### Start the app
 
 ```sh
@@ -29,7 +36,7 @@ Note: Check first time run instructions in later section.
 ### Access the server logs
 
 ```sh
-docker compose up
+docker exec -it neofreelance sh "tail /var/logs/apache2/*.log"
 
 ```
 
