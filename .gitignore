@@ -1,5 +1,6 @@
 # Templates cache files
 public/_templates/*/_cache
+public/admin/_templates/_cache/*
 
 # Db volume
 mysql
