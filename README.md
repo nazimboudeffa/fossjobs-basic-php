@@ -36,7 +36,7 @@ Note: Check first time run instructions in later section.
 ### Access the server logs
 
 ```sh
-docker exec -it neofreelance sh "tail /var/logs/apache2/*.log"
+docker exec -it neofreelance tail /var/log/apache2/access.log /var/log/apache2/error.log -f
 
 ```
 

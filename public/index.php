@@ -140,6 +140,8 @@
 			$smarty->assign('job_url', $job_title);
 			$smarty->assign('postRequiresModeration', $extra);
 			$template = 'publish-confirmation.tpl';
+      unset($_SESSION['later_edit']);
+			unset($_SESSION['referer']);
 			break;
 			
 		// deactivate a post

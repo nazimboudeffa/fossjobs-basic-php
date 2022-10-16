@@ -23,7 +23,7 @@ $__instances['local'] = array(
 	// language to use
 	'lang_code' => 'en',
 	// error reporting
-	'ini_error_reporting' => E_ERROR | E_PARSE
+	'ini_error_reporting' => E_ERROR | E_PARSE,
 	'ini_display_errors' => 'Off',
 	// environment setting 1 (use 'local' for localhost/testing OR 'online' for live, production environment)
 	'location' => 'local',
