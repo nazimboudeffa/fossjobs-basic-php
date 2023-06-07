@@ -42,7 +42,16 @@ $__instances['live'] = array(
 ```
 
 
-Create a folder called `_cache` in `_templates/bulma`
+Create a folder called `_cache` in `public/_templates/bulma`
+
+```
+sudo chown -R www-data:www-data _cache
+```
+
+Again
+
+
+Create a folder called `_cache` in `public/admin/_templates`
 
 ```
 sudo chown -R www-data:www-data _cache
