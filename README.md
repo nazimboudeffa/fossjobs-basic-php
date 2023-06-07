@@ -1,8 +1,6 @@
-# NeoFreelance
+# fossjobs basic php
 
-Open source freelance job platform, check it here: [neofreelance.com](https://neofreelance.com/).
-
-Sources inspired from [fossjobs.net](https://www.fossjobs.net/)
+Open source freelance job platform, inspired from [fossjobs.net](https://www.fossjobs.net/)
 
 # Launch for dev
 
@@ -20,8 +18,8 @@ Instructions on how to install `docker` for
 ### Clone and move to working directory
 
 ```
-git clone https://github.com/nazimboudeffa/neofreelance-basic-php.git
-cd neofreelance-basic-php
+git clone https://github.com/nazimboudeffa/fossjobs-basic-php.git
+cd fossjobs-basic-php
 ```
 
 ### Start the app
@@ -49,7 +47,7 @@ docker exec -it neofreelance tail /var/log/apache2/access.log /var/log/apache2/e
 [http://localhost/phpmyadmin](http://localhost/phpmyadmin)
 
 ```
-Username: dev
+Username: admin
 Password: dev124
 ```
 
