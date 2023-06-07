@@ -19,7 +19,7 @@ Create a database in phpmyadmin called jobberbase
 
 ## Configure
 
-Go to config folder and edit config.env.php file, only live part
+Go to `public/_config` folder and edit `config.env.php` file, only live part
 
 ```
 // live
