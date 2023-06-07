@@ -15,7 +15,7 @@ cd fossjobs-basic-php
 
 ##
 
-Create a database in phpmyadmin called jobberbase
+Create a database in phpmyadmin called jobberbase and use `bulma`
 
 ## Configure
 
