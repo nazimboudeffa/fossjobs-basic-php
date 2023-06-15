@@ -8,18 +8,18 @@
 $__instances['local'] = array(
 	// The prefix should be a unique part of the url (not including protocol name or auth info; see below).
 	//'prefix' => 'jobberbase.local',
-	'prefix' => 'localhost',
+	'prefix' => 'fossjobs-basic-php.localhost',
 	// mysql credentials
 	'db_host' => 'localhost',
 	'db_port' => 3306,
-	'db_user' => 'dev',
+	'db_user' => 'root',
 	//'db_password' => 'root',
-	'db_password' => 'dev123',
-	'db_name' => 'neofreelance',
+	'db_password' => '',
+	'db_name' => 'jobberbase',
 	'db_prefix' => '',
 	// your site's full url
 	//'app_url' => 'http://jobberbase.local/',
-	'app_url' => 'http://localhost/',
+	'app_url' => 'http://fossjobs-basic-php.localhost/',
 	// language to use
 	'lang_code' => 'en',
 	// error reporting
@@ -39,8 +39,8 @@ $__instances['live'] = array(
 	'prefix' => 'neofreelance.com',
 	'db_host' => 'localhost',
 	'db_port' => 3306,
-	'db_user' => 'root',
-	'db_password' => '',
+	'db_user' => 'dev',
+	'db_password' => 'dev123',
 	'db_name' => 'jobberbase',
 	'db_prefix' => '',
 	//'app_url' => 'http://www.yourjobberbasedomain.com/',
@@ -102,6 +102,6 @@ foreach ($__instances as $__instance)
 
 if(!defined('DB_HOST'))
 {
-	die('None of the configured JobberBase instances matched your request!<br />If you are an admin of this JobberBase installation, you may want to review the \'prefix\' values of the configured JobberBase instances in config.envs.php.');
+	die('None of the configured fossjobs instances matched your request!<br />If you are an admin of this fossjobs installation, you may want to review the \'prefix\' values of the configured JobberBase instances in config.envs.php.');
 }
 ?>
