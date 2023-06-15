@@ -1,4 +1,4 @@
-# fossjobs basic php
+# jobberbase basic php
 
 Open source freelance job platform, forked from [fossjobs.net](https://www.fossjobs.net/)
 
@@ -9,8 +9,8 @@ Add a site available and ssl like I do in my wiki
 ## Clone and move to working directory
 
 ```
-git clone https://github.com/nazimboudeffa/fossjobs-basic-php.git
-cd fossjobs-basic-php
+git clone https://github.com/nazimboudeffa/jobberbase-basic-php.git
+cd jobberbase-basic-php
 ```
 
 ##
@@ -49,7 +49,6 @@ sudo chown -R www-data:www-data _cache
 ```
 
 Again
-
 
 Create a folder called `_cache` in `public/admin/_templates`
 
