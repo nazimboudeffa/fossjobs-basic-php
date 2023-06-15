@@ -5,7 +5,7 @@
 				<div class="tags">
 					<a class="tag is-light" href="https://www.facebook.com/CodeurGrosArgent">Facebook</a>
 					<a class="tag is-light" href="https://github.com/fossjobs-basic-php">GitHub</a>
-					<a class="tag is-link" href="/about/">&hearts; Center for the Cultivation of Technology</a>
+					<a class="tag is-link" href="/about/">About</a>
 				</div>
 			</div>
 		</div>
