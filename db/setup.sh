@@ -1,7 +1,7 @@
 echo "Creating DB..."
 mysql -e "create database jobberbase;"
 echo "Creating Tables..."
-mysql neofreelance < /db/setup.sql
+mysql jobberbase < /db/setup.sql
 echo "Creating dev user..."
 mysql -e "CREATE USER 'dev'@'localhost' IDENTIFIED WITH mysql_native_password BY 'dev123';"
 mysql -e "GRANT ALL PRIVILEGES ON jobberbase.* TO 'dev'@'localhost' WITH GRANT OPTION;"
